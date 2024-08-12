@@ -1,0 +1,131 @@
+/* --------------------------------------------------------- Image Banner --------------------------------------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-banner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+/* --------------------------------------------------------- Contact section --------------------------------------------------------- */
+
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    
+    }
+    
+    .contact-section h2 {
+    font-size: 3rem;
+    font-family: 'Noto Serif NP Hmong', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 30px;
+    }
+    
+    .contact-section p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    .contact-form {
+    width: 50%;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    font-size: 1.1rem;
+    }
+    
+    .contact-form textarea {
+    height: 200px;
+    }
+    
+    .contact-form button {
+    display: block;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    }
+    
+    .contact-form button:hover {
+    background-color: #555;
+    }
+    
+    .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    }
+    
+    .contact-info h3 {
+    font-size: 2rem;
+    font-family: 'Noto Serif NP Hmong', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 20px;
+    }
+    
+    .contact-info p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    }
+    
+    .contact-info i {
+    font-size: 1.4rem;
+    margin-right: 10px;
+    }
+    
+    .contact-info a {
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    }
+    
+    .contact-info a:hover {
+    color: #555;
+    }
+    
+    @media only screen and (max-width: 768px) {
+    .contact-section {
+    flex-direction: column;
+    }
+    .contact-form,
+    .contact-info {
+    width: 100%;
+    }
+    }
