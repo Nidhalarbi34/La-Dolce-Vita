@@ -38,8 +38,8 @@ The Restaurant Website Project is a responsive web application designed to showc
 - **HTML**: Structure of the web pages.
 - **CSS**: Styling and layout.
 - **JavaScript**: Interactive elements and form handling.
-- **Bootstrap (optional)**: CSS framework for responsive design (if used).
-- **Font Awesome**: Icons used throughout the website (if used).
+- **Bootstrap **: CSS framework for responsive design .
+- **Font Awesome**: Icons used throughout the website .
 
 ## Getting Started
 
